@@ -1,0 +1,10 @@
+@article{REPO266,
+    author = "Sun, Yuxi and Ye, Yunming and Kang, Jian and Fernandez-Beltran, Ruben and Feng, Shanshan and Li, Xutao and Luo, Chuyao and Zhang, Puzhao and Plaza, Antonio",
+    doi = "10.1109/tgrs.2023.3307508",
+    journal = "IEEE Transactions on Geoscience and Remote Sensing",
+    month = "Jan",
+    pages = "1–16",
+    title = "{Cross-View Object Geo-Localization in a Local Region With Satellite Imagery}",
+    volume = "61",
+    year = "2023"
+}
