@@ -1,0 +1,20 @@
+2024-12-05 04:34:28,773 INFO     ['/data/xiaoxinwang/Project/Cross-view object geo-localization/train.py', '--test', '--pretrain', 'saved_models/model_svi_model_best.pth.tar', '--emb_size', '512', '--img_size', '1024', '--data_root', '/data/xiaoxinwang/dataset/CVOGL', '--data_name', 'CVOGL_SVI', '--savename', 'test_model_svi', '--gpu', '0', '--batch_size', '4', '--num_workers', '16', '--print_freq', '50']
+2024-12-05 04:34:28,774 INFO     Namespace(anchors='37,41, 78,84, 96,215, 129,129, 194,82, 198,179, 246,280, 395,342, 550,573', batch_size=4, beta=1.0, data_name='CVOGL_SVI', data_root='/data/xiaoxinwang/dataset/CVOGL', emb_size=512, gpu='0', img_size=1024, lr=0.0001, max_epoch=25, num_workers=16, pretrain='saved_models/model_svi_model_best.pth.tar', print_freq=50, savename='test_model_svi', seed=13, test=True, val=False)
+2024-12-05 04:34:30,851 INFO     => loaded pretrain model at saved_models/model_svi_model_best.pth.tar
+2024-12-05 04:34:30,864 INFO     Num of parameters:73795164
+2024-12-05 04:34:34,726 INFO     [0/244]	Time 3.840 (3.840)	Accu50 0.5000 (0.5000)	Accu25 0.5000 (0.5000)	Mean_iou 0.4005 (0.4005)	Accu_c 0.2500 (0.2500)	
+2024-12-05 04:34:42,531 INFO     [50/244]	Time 0.165 (0.228)	Accu50 0.5000 (0.4118)	Accu25 0.5000 (0.4510)	Mean_iou 0.3644 (0.3407)	Accu_c 0.2500 (0.2206)	
+2024-12-05 04:34:50,232 INFO     [100/244]	Time 0.154 (0.192)	Accu50 0.2500 (0.4158)	Accu25 0.2500 (0.4455)	Mean_iou 0.2163 (0.3383)	Accu_c 0.2500 (0.2129)	
+2024-12-05 04:34:57,978 INFO     [150/244]	Time 0.155 (0.179)	Accu50 0.5000 (0.4338)	Accu25 0.5000 (0.4652)	Mean_iou 0.4210 (0.3533)	Accu_c 0.2500 (0.2219)	
+2024-12-05 04:35:05,771 INFO     [200/244]	Time 0.155 (0.174)	Accu50 0.2500 (0.4515)	Accu25 0.5000 (0.4826)	Mean_iou 0.3276 (0.3647)	Accu_c 0.2500 (0.2313)	
+2024-12-05 04:35:12,506 INFO     0.431655, 0.463515, 0.348136, 0.240493
+2024-12-05 04:36:49,851 INFO     ['/data/xiaoxinwang/Project/Cross-view object geo-localization/train.py', '--val', '--pretrain', 'saved_models/model_svi_model_best.pth.tar', '--emb_size', '512', '--img_size', '1024', '--data_root', '/data/xiaoxinwang/dataset/CVOGL', '--data_name', 'CVOGL_SVI', '--savename', 'test_model_svi', '--gpu', '0', '--batch_size', '4', '--num_workers', '16', '--print_freq', '50']
+2024-12-05 04:36:49,851 INFO     Namespace(anchors='37,41, 78,84, 96,215, 129,129, 194,82, 198,179, 246,280, 395,342, 550,573', batch_size=4, beta=1.0, data_name='CVOGL_SVI', data_root='/data/xiaoxinwang/dataset/CVOGL', emb_size=512, gpu='0', img_size=1024, lr=0.0001, max_epoch=25, num_workers=16, pretrain='saved_models/model_svi_model_best.pth.tar', print_freq=50, savename='test_model_svi', seed=13, test=False, val=True)
+2024-12-05 04:36:51,921 INFO     => loaded pretrain model at saved_models/model_svi_model_best.pth.tar
+2024-12-05 04:36:51,934 INFO     Num of parameters:73795164
+2024-12-05 04:36:55,204 INFO     [0/231]	Time 3.229 (3.229)	Accu50 0.7500 (0.7500)	Accu25 0.7500 (0.7500)	Mean_iou 0.6193 (0.6193)	Accu_c 0.2500 (0.2500)	
+2024-12-05 04:37:03,016 INFO     [50/231]	Time 0.156 (0.216)	Accu50 0.5000 (0.4216)	Accu25 0.5000 (0.4461)	Mean_iou 0.4022 (0.3354)	Accu_c 0.5000 (0.1961)	
+2024-12-05 04:37:10,809 INFO     [100/231]	Time 0.158 (0.186)	Accu50 0.2500 (0.4455)	Accu25 0.2500 (0.4703)	Mean_iou 0.2055 (0.3540)	Accu_c 0.0000 (0.1931)	
+2024-12-05 04:37:18,668 INFO     [150/231]	Time 0.168 (0.177)	Accu50 0.7500 (0.4454)	Accu25 1.0000 (0.4785)	Mean_iou 0.7123 (0.3593)	Accu_c 0.5000 (0.1970)	
+2024-12-05 04:37:26,576 INFO     [200/231]	Time 0.156 (0.172)	Accu50 0.0000 (0.4614)	Accu25 0.0000 (0.4925)	Mean_iou 0.0000 (0.3707)	Accu_c 0.0000 (0.1940)	
+2024-12-05 04:37:31,340 INFO     0.436620, 0.468039, 0.351260, 0.198267
